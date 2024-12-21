@@ -1,0 +1,6 @@
+data/
+result/
+save/
+src/
+.env
+.DS_Store
