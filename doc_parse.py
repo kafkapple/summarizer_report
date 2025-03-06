@@ -549,19 +549,19 @@ def save_to_html(html_content: str, file_path: str) -> None:
         print(f"Error saving HTML file: {e}")
 
 def main():
-    file_name = Path('2반_보고서.pdf')
+    file_name = Path('.pdf')
     data_pdf_path = Path(__file__).parent / 'data'
     data_path = Path(__file__).parent / 'data' / file_name #'processed' / '1_pages'
     save_path = Path(__file__).parent / 'data' / 'processed' #/ 'html'
     #save_html_path = Path(__file__).parent / 'save' / 'html'
 
-    # html_sample = Path(__file__).parent / 'save' / 'html' / "10801_강윤아.html"
-    # json_file_path = Path(__file__).parent / 'save' / '10801_강윤아.json'
+    # html_sample = Path(__file__).parent / 'save' / 'html' / ".html"
+    # json_file_path = Path(__file__).parent / 'save' / '.json'
     
     # ### 1JSON 파일을 읽어오기
     # with open(json_file_path, "r", encoding="utf-8") as file:
     #     json_data = json.load(file)
-    # render_html_with_latex_from_json(json_data, "10801", "강윤아", save_path / "10801_강윤아.html")
+    # render_html_with_latex_from_json(json_data, , save_path / ".html")
 
 # 1. LangChain Document Parse API
 
