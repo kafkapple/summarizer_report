@@ -262,7 +262,7 @@ def parse_and_save_html(pkl, save_path):
 
 
 # # Load the JSON data
-# file_path = '/mnt/data/10801_강윤아.json'
+# file_path = '/mnt/data/.json'
 # with open(file_path, 'r', encoding='utf-8') as file:
 #     student_data = json.load(file)
 
